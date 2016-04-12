@@ -1,0 +1,57 @@
+.hero{
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom:10%;
+	width:100%;
+	padding-top: 150px;
+	.hero-content{
+		padding:10%;
+		h2{
+			text-align: left;
+			margin:0;
+			text-transform: uppercase;
+			font-family: "bebasneue_regular", sans-serif;
+			font-size: 50px;
+			letter-spacing: 10px;
+
+		}
+		p{
+			text-align: left;
+			font-size: 20px;
+		}
+	}
+
+}
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.hero {
+	    margin-top: 100px;
+	}
+}
+
+@media all and (max-width: 667px) {
+
+   
+
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

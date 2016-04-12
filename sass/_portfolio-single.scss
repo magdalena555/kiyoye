@@ -1,0 +1,107 @@
+.single .portfolio {
+    padding: 0;
+    background: #fff;
+}
+
+.portfolio-single{
+	margin-top:150px;
+	h1{
+		text-align: center;
+		margin:0;
+		text-transform: uppercase;
+		font-size: 34px;
+		font-family: "bebasneue_regular", sans-serif;	
+		letter-spacing:2px;
+		padding-bottom:5%;
+	}
+	.entry-content{
+	padding: 5% 26% 0 26%;
+		p{
+			margin:0;
+			text-align: left;
+			font-size: 14px;
+		}
+		
+	}
+	.port-icons-wrapper{
+		width:100%;
+		display:flex;
+		justify-content:center;
+		.port-icons{
+			margin: 0px 30px;
+		}
+	}
+}
+
+.single-portfolio-item{
+	padding:5% 10%;
+	h2{
+		text-align: left;
+		margin:0;
+		text-transform: uppercase;
+		font-size: 24px;
+		font-family: "bebasneue_regular", sans-serif;	
+		padding-bottom:5%;
+	}
+	p{
+		margin:0;
+		text-align: left;
+		font-size: 14px;
+	}
+	.main-container{
+		width:80%;
+		padding:5% 0;
+		margin:0 auto;
+		.cell{
+			width:100%;
+			img{
+				width:100%;
+			}
+
+		}
+	}
+}
+.flickity-page-dots{
+	display:none;
+}
+
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.portfolio-single .entry-content {
+	    padding: 5% 10%;
+	}
+	
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.single-portfolio-item .main-container {
+	    width: 100%;
+	}
+}
+
+@media all and (max-width: 667px) {
+	.portfolio-single .entry-content {
+	    padding: 5%;
+	}
+	.portfolio-single .port-icons-wrapper .port-icons {
+	    margin:0 5px;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

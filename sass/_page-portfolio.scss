@@ -1,0 +1,109 @@
+.portfolio-page{
+	margin-top:150px;
+	padding: 5% 10%;
+	h2{
+		text-align: center;
+		margin:0;
+		text-transform: uppercase;
+		font-size: 37px;
+		font-family: "bebasneue_regular", sans-serif;	
+	}
+	.portfolio-page-description{
+		padding: 5% 17%;
+		p{
+			margin:0;
+			text-align: left;
+			font-size: 14px;
+		}
+	}
+	.image-wrapper{
+		display:flex;
+		width:100%;
+		flex-wrap:wrap;
+		justify-content: center;
+		.portfolio-small-image{
+			margin:3%;
+			position:relative;
+			z-index:998;
+			transition: all .5s ease-in-out;
+			img{
+				-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+				filter: grayscale(100%);
+				width:100%;
+				transition: all .5s ease-in-out;
+			}
+			h3{
+				top: 38%;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				position:absolute;
+				display:none;
+				z-index: 999;
+				transition: all .5s ease-in-out;
+			}
+		}
+	}
+}
+.portfolio-page .image-wrapper .portfolio-small-image:hover{
+	h3{
+		display:block;
+		color:#3c3c3c;
+		font-size: 30px;
+		text-align: center;
+		font-family: "bebasneue_regular", sans-serif;	
+	}
+	.port-filter{
+		position:absolute;
+		background: rgba(225, 225, 225, 0.8);
+		top:0;
+		bottom:0;
+		right:0;
+		left:0;
+		z-index: 990;
+		transition: all .5s ease-in-out;
+
+	}
+}
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.portfolio-page {
+	    padding: 5%;
+	}
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+	.portfolio-page {
+		margin-top:100px;
+	    padding: 5%;
+	}
+}
+
+@media all and (max-width: 667px) {
+	.portfolio-page .portfolio-page-description {
+	    padding: 5%;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+	.portfolio-page .image-wrapper .portfolio-small-image {
+	    margin: 0;
+	    position: relative;
+	    z-index: 998;
+	    width: 80%;
+	}
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

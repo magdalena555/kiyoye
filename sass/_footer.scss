@@ -1,0 +1,83 @@
+.contact{
+	background:#F2ECE4;
+	padding: 5% 0;
+	h2{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 37px;
+		font-family: "bebasneue_regular", sans-serif;		
+		margin:0;
+		padding-bottom:2%;
+	}
+	.contact-description{
+		padding: 0 17%;
+		p{
+			margin:0;
+			text-align: center;
+			font-size: 14px;
+		}
+	}
+	.contact-content{
+		padding: 2% 0 0;
+		a{
+			text-decoration: none;
+			p{
+				margin:0;
+				text-align: center;
+				font-size: 14px;
+			}
+		}
+		
+	}
+}
+
+footer {
+
+	background:#E1D1C9;
+	padding: 3% 0;
+	.footer-wrapper{
+		.social{
+			display:flex;
+			justify-content: center;
+			p{
+				margin: 0 20px;
+			}
+			.fa{
+				font-size: 35px;
+				color: #3C3C3C;				
+			}
+		}
+	}
+
+}
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 667px) {
+	footer .footer-wrapper .social .fa {
+	    font-size: 24px;
+	}
+}
+
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

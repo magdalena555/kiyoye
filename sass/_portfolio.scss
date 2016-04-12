@@ -1,0 +1,138 @@
+.portfolio{
+	padding:10%;
+	background: white;
+	h2{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 37px;
+		font-family: "bebasneue_regular", sans-serif;		
+		padding-bottom:3%;
+		margin:0;
+	}
+	.portfolio-description{
+		padding:0 17%;
+		p{
+			margin:0;
+			text-align: left;
+			font-size: 14px;
+		}
+	}
+	.portfolio-item{
+		display:flex;
+		justify-content:center;
+		padding: 5% 0;
+		.portfolio-small-image{
+			position: relative;
+			margin:3%;
+			a{
+				img{
+					-webkit-filter: grayscale(100%);
+					width:100%;
+					height:100%;
+					margin:0;
+				}
+
+				h3{
+				    top: 38%;
+				    bottom: 0;
+				    right: 0;
+				    left: 0;
+				    position: absolute;
+				    display: none;
+				    z-index: 999;
+				}
+			}
+		}
+	}
+	.button{ 
+		text-decoration: none;
+		transition: all .5s ease-in-out;
+		h4 {
+		    width: 137px;
+		    height: 46px;
+			border: solid 1px black;
+		    margin: 0 auto;
+		    font-family: "bebasneue_regular", sans-serif;	
+		    border-radius: 5px;
+		  	color:black;
+		    padding: 12px;
+		    text-transform: uppercase;
+		    text-align: center;
+		    font-size:18px;
+		    transition: all .5s ease-in-out;
+
+		}
+	}
+}
+
+
+.portfolio .portfolio-item .portfolio-small-image:hover{
+	.port-filter{
+		position:absolute;
+		background: rgba(225, 225, 225, 0.8);
+		top:0;
+		bottom:0;
+		right:0;
+		left:0;
+		z-index: 990;
+		transition: all .5s ease-in-out;
+	}	
+	h3{
+		display:block;
+		color:#3c3c3c;
+		font-size: 30px;
+		text-align: center;
+		font-family: "bebasneue_regular", sans-serif;	
+	}
+}
+
+
+ .button:hover{ 
+	h4 {
+	    background: #B5B8B1;
+	}
+}
+
+
+
+
+// Responsive design
+@media all and (max-width: 1390px) { 
+
+}
+@media all and (max-width: 1024px) { 
+	.portfolio {
+    	padding: 5%;
+	}
+}
+@media all and (max-width: 940px) { 
+
+
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 667px) {
+	.portfolio .portfolio-item {
+	   flex-direction: column;
+	}
+	.portfolio .portfolio-item .portfolio-small-image {
+	    height: 250px;
+	    margin:0;
+	}
+   .portfolio .portfolio-description {
+       padding: 5%;
+   }
+
+}
+
+@media all and (max-width: 480px) {
+	
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

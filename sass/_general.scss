@@ -1,0 +1,19 @@
+h1, h2, h3, h4, p{
+	font-family: 'Open Sans', sans-serif;
+	color: #3C3C3C;
+	font-weight:300;
+}
+
+.body-wrapper{
+    max-width: 1250px;
+    margin:0 auto ;
+    display: block;
+}
+.logged-in{
+	header{
+		margin-top:32px;	
+	}
+}
+.notfound{
+	padding:5% 10%;
+}
